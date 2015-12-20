@@ -1,0 +1,230 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Fabien's Notes and Tips</title>
+    <link rel="stylesheet" type="text/css" href="Fabien_Notes_and_tips_style.css">
+    <link rel="stylesheet" type="text/css" href="Normalize.css">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Fabien's Notes and Tips</h1>
+      </div> 
+      <div><!-- Menu -->
+            <div class="menu">
+              <a href="#udacity" class="menu_titles">UDACITY</a>
+              <a href="#html" class="menu_titles">HTML</a>
+              <a href="#css" class="menu_titles">CSS</a>
+            </div>
+      </div>
+    </header>
+    <div> <!-- Div for all of the concepts --> 
+
+      <!-- UDACITY -->
+
+     <a id="udacity"></a>
+     <div class="section_Menu">
+        <div class="title_section">
+          <h3>UDACITY</h3>
+          <em>Tips</em>
+        </div>
+        <div class="title_concept"> 
+          Markdown
+        </div>
+          <div class="concept">
+            <p>Use ```html content with & lt; ``` or ``` python print 'hellow world' ``` or [udacity](http://www.udacity.com) </p>
+              <p>How to code:</p>
+                <ol>
+                  <li>Natural Boxes</li>
+                  <li>Repeat Style and semantic Elements</li>
+                  <li>Write HTML</li>
+                  <li>Apply big Style to small</li>
+                  <li>Fix</li>
+                  <li>Repeat Steps 3-4</li>
+                </ol>
+          </div>
+      </div>
+
+      <!--HTML -->
+
+      <a id="html"></a>
+      <div class="section_Menu">
+        <div class="title_section">
+          <h3>HTML</h3>
+          <em>Controls the Structure</em><br>
+          <em><a href="https://validator.w3.org/#validate_by_input" class="verify">Verify html</a></em>
+        </div>
+        <div class="title_concept"> 
+          Markup
+        </div> 
+        <div class="concept"> 
+          &lt;NAME&gt;&lt;/NAME&gt;
+        </div>
+          <div class="inlinebox"> <!-- Use the Div to put each block next to each other-->
+            <div class="title_concept"> 
+              Inline
+            </div>
+            <div class="concept">
+              <p>
+                - Bold: &lt;b&gt;&lt;/b&gt; <br>
+               - Italic: &lt;em&gt;&lt;/em&gt; <br>
+               - Space: &lt;br&gt; <br>
+                - Span: &lt;span&gt;&lt;/span&gt;<br>
+               - strong: &lt;strong&gt;&lt;/strong&gt;<br> 
+                - Comments: &lt;!-- TEXT --&gt;<br>
+                - All braquets <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">here</a>
+              </p>
+            </div> 
+          </div>
+         <div class="blockbox">
+          <div class="title_concept">
+            Block
+          </div> 
+          <div class="concept">
+            <p>
+              <em>(Blocks makes an invisible box with Height and Width)</em>
+            </p>
+            <p>
+              - Paragraph: &lt;p&gt;&lt;/p&gt; <br>
+              - Div: &lt;div&gt;&lt;/div&gt; <br>
+            </p>
+          </div>
+        </div>
+        <div class="title_concept">
+          Attributes
+        </div>
+        <div class="concept">
+          <p>
+            <em>Attributes have the following structure: &lt;tag ATTR="Value"> Content &lt;/tag></em>
+          </P> 
+          <p>
+            - Anchor: &lt;a href="URL"&gt;Text&lt;/a&gt; <br>
+            - Image: &lt;img src="URL" alt="TEXT"&gt; <br>
+            - Form: &lt;form&gt;&lt;/form&gt;<br>
+            <a href="http://www.w3schools.com/html/html_attributes.asp">More...</a>
+           </p>
+        </div>
+        <div class="title_concept">
+          Squeleton for webpage
+        </div>
+        <div class="concept">
+          <p>
+            <em>(In HTML5 the Doctype is simplified to to HTML)</em>
+          </p> 
+          <code> <!-- <menu></menu> doesn't seem to work on Chrome  (It makes the code diseaper)--> 
+            &lt;!DOCTYPE HTML&gt;<br>
+            &lt;html&gt;<br>
+            &lt;head&gt;<br>
+            &lt;title&gt;Title!&lt;/title&gt;<br>
+            &lt;style type="text/css"&gt;&lt;/style&gt;
+            &lt;/head&gt;<br>
+            &lt;body&gt;<br>
+            &lt;b&gt;Content&lt;/b&gt;<br>
+            &lt;/body&gt;<br>
+            &lt;/html&gt;<br>
+            In the body everything is part of a box. 
+          </code>
+          <p>For HTML element reference <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Content_sectioning">Here</a></p>
+        </div>
+        <div class="title_concept">
+          Images
+        </div>
+        <div class="concept">
+          <p>
+            Images should have the src and alt 
+          </p>  
+        </div>    
+        <div class="title_concept">
+          Domain Object Model
+        </div>
+        <div class="concept">
+          <p>
+            Most web Browser use an internal Model similar to the DOM = DOM Tree <a href="https://en.wikipedia.org/wiki/Document_Object_Model">Source</a> <br> 
+            DOM Tree help programmer navigate through the document. <br> 
+            Each element can contain other elements making it easier to find what is needed<br>
+            <img src="images/HTMLDOMTree.png" alt="Example of DOM Tree" id="dom">
+          </p>  
+        </div>   
+       </div>
+
+      <!-- CSS -->
+
+      <a id="css"></a>
+      <div class="section_Menu">
+        <div class="title_section">
+        <h3>CSS</h3>
+        <em>Controls how it looks</em><br>
+        <em><a href="http://jigsaw.w3.org/css-validator/#validate_by_input" class="verify">Verify css</a></em>
+        </div> 
+        <div class="title_concept">
+        Info
+        </div>
+        <div class="concept"> 
+          <p>    
+            - Use .NAMEOFCLASS OR #NAMEFORID { } <br>
+            -  specific rule rules <br> 
+            - for normalizing CSS across Browers use <a href="http://necolas.github.io/normalize.css/">normalize.css</a> <br>
+            - For CSS <a href="https://css-tricks.com/how-css-selectors-work/">Tricks</a><br>
+            - CSS References <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Here</a><br> 
+            - CLASS = group of element that can be styled together - use .CLASSNAME <br>
+            - ID = Unique Identifier that uniquely identifies and element - use #IDNAME<br>
+            - Tag name - use the tag name to appply on all tags <br>
+            - comments in CSS are /* */. <br>
+            - Indentation is Tag > . > # <br>
+            - Color CSS : <a href="http://www.w3schools.com/cssref/css_colornames.asp">Here</a>
+          </p>
+        </div>
+        <div class="title_concept">
+          Box Set up
+        </div>
+        <div class="concept">
+          <p>
+            Box are made respectively of: Margin - Border - Padding - Content. going from outside to inside <a href="https://www.youtube.com/watch?time_continue=14v=jlp8uLzt16E">Example</a><br> 
+            or <a href="http://assignments.udacity-extras.appspot.com/courses/html-css/samples/box-model.html">here</a><br>
+            Margin has no background
+          </p>
+        </div>
+        <div class="title_concept">
+          CCS Tricks
+        </div>
+        <div class="concept">
+          <h5>Unifomizing the boxes</h5>
+          <p>
+          *{<br>
+            -webkit-box-sizing:border-box;<br>
+            -moz-box-sizing: border-box;<br>
+            -ms-box-sizing: border-box;<br>
+            box-sizing: border-box;<br>
+          }
+          </p>
+          <h5>Framwork CSS visual</h5>
+          <p>
+            * { 
+            margin: 8px; <br>
+            border: red solid 2px; <br>
+            background-color: rgbe(0,0,0,0,15); <br>
+          }
+          </p> 
+        </div>
+        <div class="title_concept">
+          Flex Boxes - Gets the boxes to appear next to each other
+        </div>
+        <div class="concept">
+          <p>
+            element.style { <br>
+            display:flex <br>
+            display: -webkit-flex;<br>
+            } <br>
+            <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">More Info</a>
+          </p>
+        </div>
+      </div>
+    </div>
+      <footer class="container">
+        <div class="menu">
+          <div><a href="https://www.facebook.com/fabien.sarran.7"><img src="images/facebook.png" alt="facebook logo" class="footer_image"></a></div>
+          <div><a href="https://twitter.com/fabiensarran"><img src="images/twitter.png" alt="twitter logo" class="footer_image"></a></div>
+        </div>
+      </footer>
+  </body>
+  </html>
